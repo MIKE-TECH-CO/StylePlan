@@ -1,0 +1,8 @@
+# Exact versions of the isolated macOS CPU verification environment.
+# Do not apply this file to an existing server GPU environment.
+jax==0.11.2
+jaxlib==0.11.2
+ml_dtypes==0.6.0
+numpy==2.5.4
+opt_einsum==3.4.0
+scipy==1.18.1

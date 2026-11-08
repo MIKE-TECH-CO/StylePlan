@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "styleplan-paper-jax"
+version = "0.1.2"
+description = "Isolated JAX implementation of the attached StylePlan fingerprint/EMA paper"
+requires-python = ">=3.10"
+dependencies = ["jax>=0.4.30", "numpy>=1.24"]
+
+[project.scripts]
+styleplan-paper = "styleplan_paper.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["styleplan_paper*"]
